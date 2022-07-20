@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .input-up {
+        border-color: lightgray;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        padding-left: 10px;
+        width: 100px;
+        height: 30px;
+      }
+
+      .input-down {
+        border-color: lightgray;
+        margin-top: 10px;
+        display: block;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        padding-left: 10px;
+        width: 218px;
+        height: 30px;
+      }
+
+      .btn {
+        margin-top: 10px;
+        background-color: rgb(47, 110, 218);
+        border: none;
+        color: white;
+        font-weight: bold;
+        padding: 10px 91px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.15s, box-shadow 0.15s;
+      }
+
+      .btn:hover {
+        background-color: rgb(48, 79, 131);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+      }
+
+      .btn:active {
+        opacity: 0.75;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="input-up" type="text" placeholder="First name">
+    <input class="input-up" type="text" placeholder="Last name">
+    <input class="input-down" type="email" placeholder="Email">
+    <button class="btn">Sign Up</button>
+  </body>
+</html>
